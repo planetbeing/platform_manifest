@@ -104,8 +104,8 @@
   <project path="external/yaffs2" name="platform/external/yaffs2" revision="40c4004d07a37a9b140067f893930ce4436b9346" />
   <project path="external/zlib" name="platform/external/zlib" revision="a64e4eaf41f9520f60051b758fb27f98e72d85ea" />
   <project path="frameworks/base" name="platform/frameworks/base" revision="b6debd72fdf4a769d4749ef25ac8ece6a4e436dd" />
-  <project path="frameworks/opt/com.google.android" name="platform/frameworks/opt/com" revision="4c5e9efdae27f6fc6d4dc796b3948b993572594f" />
-  <project path="frameworks/opt/com.google.android.googlelogin" name="platform/frameworks/opt/com" revision="a6d88ee9dc21d9a8038d4dc12749911ad8abe4a4" />
+  <project path="frameworks/opt/com.google.android" name="platform/frameworks/opt/com.google.android" revision="4c5e9efdae27f6fc6d4dc796b3948b993572594f" />
+  <project path="frameworks/opt/com.google.android.googlelogin" name="platform/frameworks/opt/com.google.android.googlelogin" revision="a6d88ee9dc21d9a8038d4dc12749911ad8abe4a4" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" revision="628231a4b4de5ab8866faa912309017759efde0a" />
   <project path="frameworks/policies/base" name="platform/frameworks/policies/base" revision="1dc1ccaf5c8cc136b71537f310a3f13150aaef41" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" revision="8d567480b45a801a1955e4743c5eeae431d58f56" />
