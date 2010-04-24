@@ -6,7 +6,7 @@
   <remote  name="iphone"
 	   fetch="git://github.com/planetbeing/" />
 
-  <default revision="refs/tags/android-sdk-1.6_r2-iphone" remote="korg" />
+  <default revision="donut-iphone" remote="korg" />
 
   <project path="build" name="platform_build" remote="iphone">
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -15,9 +15,9 @@
   <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" remote="iphone" />
   <project path="hardware/ril" name="platform_hardware_ril" remote="iphone" />
   <project path="system/core" name="platform_system_core" remote="iphone" />
-  <project path="vendor/apple" name="platform_vendor_apple" remote="iphone" />
+  <project path="vendor/apple" name="vendor_apple" remote="iphone" />
 
-  <project path="kernel" name="kernel_common" remote="iphone" />
+  <project path="kernel" name="kernel_common" remote="iphone" revision="android-2.6.32-iphone" />
 
   <project path="external/alsa-lib" name="platform/external/alsa-lib" revision="5bd6faae7371cbb01e852247670fe7adb5f3c18c" />
   <project path="external/alsa-utils" name="platform/external/alsa-utils" revision="5bd6faae7371cbb01e852247670fe7adb5f3c18c" />
