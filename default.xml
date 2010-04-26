@@ -16,6 +16,7 @@
   <project path="hardware/ril" name="platform_hardware_ril" remote="iphone" />
   <project path="system/core" name="platform_system_core" remote="iphone" />
   <project path="vendor/apple" name="vendor_apple" remote="iphone" />
+  <project path="external/wpa_supplicant" name="platform_external_wpa_supplicant" remote="iphone" />
 
   <project path="kernel" name="kernel_common" remote="iphone" revision="android-2.6.32-iphone" />
 
@@ -98,7 +99,6 @@
   <project path="external/tinyxml" name="platform/external/tinyxml" revision="562be06492c3ac43adf153f550abaede6bc18a44" />
   <project path="external/tremor" name="platform/external/tremor" revision="43db9a8267823d7a8c46d7b8aafb43c0ad41173c" />
   <project path="external/webkit" name="platform/external/webkit" revision="173247db5500c88f7a7229fd20fb49ebd2d49296" />
-  <project path="external/wpa_supplicant" name="platform/external/wpa_supplicant" revision="5f0106824621dbd0c47169af8a1f3f6fbe27a837" />
   <project path="external/xdelta3" name="platform/external/xdelta3" revision="280cf4827c37fe3dd0f038536d28833154517e92" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" revision="6934ac109bf80019d70ea684c203f12ca58c365e" />
   <project path="external/yaffs2" name="platform/external/yaffs2" revision="40c4004d07a37a9b140067f893930ce4436b9346" />
